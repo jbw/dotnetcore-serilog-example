@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30406.217
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LogFactoryConsole", "src\examples\Console\LogFactoryConsole.csproj", "{EB24ECA8-BB23-46C6-A9B8-7B3CB595DCFD}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LogFactorySerilog", "src\examples\Serilog\LogFactorySerilog.csproj", "{B2CBAA6E-64B6-419E-A2D4-238AD574B804}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EB24ECA8-BB23-46C6-A9B8-7B3CB595DCFD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB24ECA8-BB23-46C6-A9B8-7B3CB595DCFD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB24ECA8-BB23-46C6-A9B8-7B3CB595DCFD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB24ECA8-BB23-46C6-A9B8-7B3CB595DCFD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B2CBAA6E-64B6-419E-A2D4-238AD574B804}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B2CBAA6E-64B6-419E-A2D4-238AD574B804}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B2CBAA6E-64B6-419E-A2D4-238AD574B804}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B2CBAA6E-64B6-419E-A2D4-238AD574B804}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DE72BDC0-96A6-485B-A6FB-1D573DCD4113}
+	EndGlobalSection
+EndGlobal
